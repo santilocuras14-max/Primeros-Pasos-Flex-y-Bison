@@ -5,20 +5,19 @@
 ## 📂 Estructura
 ```
 .
-├─ examples/
+├─ Ejemplos/
 │  ├─ ex1-1_wordcount.l
 │  ├─ ex1-2_plainflex.l
 │  ├─ ex1-3_tokens.l
 │  ├─ ex1-4_hand_scanner.c
 │  ├─ ex1-5_calc.y
 │  └─ ex1-5_scan.l
-├─ extras/
+├─ Extras/
 │  ├─ hexcalc_scan.l
 │  ├─ bitcalc_scan.l
 │  ├─ bitcalc_parser.y
 │  └─ wordcount_c.c
-├─ Makefile
-└─ README.md (este archivo)
+└─ README.md
 ```
 
 ---
@@ -80,7 +79,7 @@ echo "5 | 2 & 1" | ./build/bitcalc
 
 ---
 
-# 📖 Análisis de los ejemplos
+# Análisis de los ejemplos
 
 ### Ejemplo 1-1 — Word count (flex)
 - **Qué hace:** cuenta líneas, palabras y caracteres con reglas para saltos de línea, espacios y “otros caracteres”.
@@ -110,7 +109,7 @@ hola" | ./build/ex1-1` → salida tipo `1 2 11`.
 
 ---
 
-# 📝 Ejercicios y respuestas
+# Ejercicios y respuestas
 
 ### 1) Manejo de comentarios
 - **Pregunta:** ¿La calculadora aceptará una línea que contenga solo un comentario?  
@@ -144,5 +143,5 @@ hola" | ./build/ex1-1` → salida tipo `1 2 11`.
 
 ---
 
-# ✅ Conclusión
+# Conclusión
 Este trabajo muestra cómo Flex facilita la creación de escáneres eficientes y mantenibles, cómo integrarlos con Bison para parsers expresivos, y cómo resolver extensiones prácticas como hexadecimales y operadores bit a bit. Además, se comprobó la diferencia entre un escáner manual y uno generado por flex, y se evaluó el costo/beneficio de usar C puro.
