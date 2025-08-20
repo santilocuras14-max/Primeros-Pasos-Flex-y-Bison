@@ -2,7 +2,7 @@
 
 ---
 
-## 📂 Estructura
+## Estructura
 ```
 .
 ├─ Ejemplos/
@@ -144,4 +144,4 @@ hola" | ./build/ex1-1` → salida tipo `1 2 11`.
 ---
 
 # Conclusión
-Este trabajo muestra cómo Flex facilita la creación de escáneres eficientes y mantenibles, cómo integrarlos con Bison para parsers expresivos, y cómo resolver extensiones prácticas como hexadecimales y operadores bit a bit. Además, se comprobó la diferencia entre un escáner manual y uno generado por flex, y se evaluó el costo/beneficio de usar C puro.
+Este trabajo muestra cómo Flex facilita la creación de escáneres eficientes y mantenibles, cómo integrarlos con Bison para parsers expresivos, y cómo resolver extensiones prácticas como hexadecimales y operadores bit a bit. Además, se comprobó la diferencia entre un escáner manual y uno generado por flex.
